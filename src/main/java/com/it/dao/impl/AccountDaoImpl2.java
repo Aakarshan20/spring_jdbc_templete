@@ -3,7 +3,7 @@ package com.it.dao.impl;
 import com.it.dao.IAccountDao;
 import com.it.domain.Account;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import java.util.List;
 

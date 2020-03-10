@@ -7,7 +7,7 @@ import javax.sql.DataSource;
 /**
  * 此類用於抽取dao中的重複代碼
  */
-
+/*
 public class JdbcDaoSupport {
     private JdbcTemplate jdbcTemplate;
 
@@ -29,3 +29,4 @@ public class JdbcDaoSupport {
         return new JdbcTemplate(dataSource);
     }
 }
+*/
