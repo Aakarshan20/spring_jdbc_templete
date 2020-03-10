@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * jdbc Template的IOC用法
+ * jdbc Template的IOC用法: CRUD
  */
 public class JdbcTemplateDemo3 {
     public static void main(String[] args) {
