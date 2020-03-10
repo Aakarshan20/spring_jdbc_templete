@@ -19,8 +19,8 @@ public class JdbcTemplateDemo2 {
         IAccountDao accountDao = ac.getBean("accountDao", IAccountDao.class);
         //3. 創建Account對象
         Account account = accountDao.findAccountById(1);
-        account.setMoney(600.3f);
-        account.setName("aaa3");
+        account.setMoney(600.4f);
+        account.setName("aaa4");
         accountDao.updateAccount(account);
         System.out.println(account);
 
