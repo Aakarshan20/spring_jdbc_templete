@@ -22,6 +22,5 @@ public class JdbcTemplateDemo1 {
         //2.執行操作
         jt.execute("insert into account (name, money)value('hhh', 300.3)");
 
-
     }
 }
