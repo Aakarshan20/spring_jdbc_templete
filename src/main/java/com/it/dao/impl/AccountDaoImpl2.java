@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * 持久層實現類
+ * 繼承了spring提供的JdbcDaoSupport 所以用註解配置變得很麻煩 只能用xml配置
  */
 public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao {
 
